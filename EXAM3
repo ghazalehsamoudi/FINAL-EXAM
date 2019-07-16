@@ -1,0 +1,44 @@
+#include<iostream>
+#include<conio.h>
+using namespace std; 
+main(){
+	char ch;
+	cout<<"entera a character:";
+	cin>>ch;
+	if(ch=='a' || ch=='A')
+	   cout<<"you want amber";
+	if(ch=='b')
+	   cout<<"you want blak";
+	if(ch=='B')
+	   cout<<"you want Blue";
+	if(ch=='c')
+	   cout<<"you want cream";
+	if(ch=='C')
+	   cout<<"you want copper";
+	if(ch=='g')
+	   cout<<"you want gray";
+	if(ch=='G')
+	   cout<<"you want green";
+	if(ch=='m' || ch=='M')
+	   cout<<"you want magenta";
+	if(ch=='n' || ch=='N')
+	   cout<<"you want navy";
+	if(ch=='o' || ch=='O')
+	   cout<<"you want olive";
+	if(ch=='p' || ch=='P')
+	   cout<<"you want pink";
+	if(ch=='r' || ch=='R')
+	   cout<<"you want red";
+	if(ch=='s' || ch=='S')
+	   cout<<"you want silver";
+	if(ch=='t' || ch=='T')
+	   cout<<"you want teal";
+	if(ch=='v'|| ch=='V')
+	   cout<<"you want violet";
+	if(ch=='w' || ch=='W')
+	   cout<<"you want white";
+	if(ch=='y' || ch=='Y')
+	   cout<<"you want yellow";
+	else
+	   cout<<"there is no color for this character";
+}
