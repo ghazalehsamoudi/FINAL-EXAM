@@ -30,7 +30,7 @@ main(){
 	maximum=max(hoghugh,tedad);
 	for(int i=0;i<tedad;i++){
 	   if(maximum==hoghugh[i])
-	   cout<<"bishtarin dariaft:"<<shomare[i];
+	   cout<<"bishtarin dariaft marbut b karman b shomare karmandi:"<<shomare[i]<<" mibashad";
 	}
 }
 int max(int hoghugh[],int tedad){
